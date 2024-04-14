@@ -80,5 +80,7 @@ int main() {
         std::cout << char_to_bin(mem[i]);
     }
     std::cout << std::endl;
+
+    delete[] mem;
     return 0;
 }
